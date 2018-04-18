@@ -1,0 +1,21 @@
+body {
+  font-family: 'Varela Round', "Crimson Text", sans-serif !important;
+  background-color: #F2FFFC;
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+.customNav {
+  background-color: #87ffe7;
+}
+
+#search-box {
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  margin-left: 30%;
+}
+
+.media-icons {
+  height: 40px;
+  width: 40px;
+}
