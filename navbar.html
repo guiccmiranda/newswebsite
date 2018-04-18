@@ -12,14 +12,28 @@
 
 <body>
 
-  <header id="top-nav">  <!--I created this id-->
+  <header id="top-nav">
+    <!--I created this id-->
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#" title="home"><img id="logo" src="logo.png" alt="eSpot logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      
+      <!--TODO: create droplink button for menu-->
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">Collapsed content</h4>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
 
-      <div class="collapse navbar-collapse" id="navbarColor03 aside-nav">  <!--I created this id(aside-nav)-->
+      <div class="collapse navbar-collapse" id="navbarColor03 aside-nav">
+        <!--I created this id(aside-nav)-->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
@@ -37,15 +51,17 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
-        <form class="form-inline" id="search-bar"> <!--I created this id-->
+        <form class="form-inline" id="search-bar">
+          <!--I created this id-->
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
         </form>
-        <div id="media"> <!--I created this id-->
+        <div id="media">
+          <!--I created this id-->
           <a href="https://twitter.com/eSpotWebsite" title="twitter"><img src="twitter.png" alt="eSpot twitter" class="media-icons"></a>
           <a href="#" title="facebook"><img src="facebook.png" alt="eSpot facebook page" class="media-icons"></a>
           <a href="https://www.instagram.com/espotwebsite/?hl=en" title="instagram"><img src="instagram.png" alt="eSpot instagram" class="media-icons"></a>
-           <!--I created the previous class for the media icons-->
+          <!--I created the previous class for the media icons-->
         </div>
       </div>
     </nav>
