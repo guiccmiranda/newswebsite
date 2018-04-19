@@ -5,6 +5,10 @@ body {
   line-height: 1.5;
 }
 
+#top-nav {
+  box-shadow: 0 6px 3px -3px rgba(0, 0, 0, 0.2);
+}
+
 .customNav {
   background-color: #87ffe7;
 }
@@ -18,4 +22,5 @@ body {
 .media-icons {
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
