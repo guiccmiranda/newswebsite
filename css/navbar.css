@@ -16,11 +16,15 @@ body {
 #search-box {
   border: 1px solid #ced4da;
   border-radius: 20px;
-  margin-left: 30%;
 }
 
 .media-icons {
   height: 40px;
   width: 40px;
   cursor: pointer;
+}
+
+#container {
+  width: 50%;
+  margin: 10% 0;
 }
